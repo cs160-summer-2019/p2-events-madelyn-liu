@@ -39,8 +39,25 @@
 
 
 <script type="text/javascript">
-
-	// your solution here
+  
+myVar = setInterval (function() {
+	$(".shape-container").append( "<div class = 'p2-circle bg-blue' > </div>") }, 1000)
+;
+   $('.btn').on('click', () => {
+      clearInterval(myVar);
+    });
+//   clearInterval (function() {
+//     $('.btn').on('click', () => {
+      
+//     });
+//   }
+  
+  
+// clearInterval (function() {
+//   $('.btn').on('click', () => {
+//     clearInterval();
+// }
+  
 
 </script>
 </body>
